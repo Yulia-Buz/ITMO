@@ -55,3 +55,6 @@ print('Количество положительных чисел:', x)
 
 # Задача № 7
 
+def quant_days(a: int, b: int) -> int:
+    return (a * 348) + (b * 29)
+print(quant_days(2, 3))
